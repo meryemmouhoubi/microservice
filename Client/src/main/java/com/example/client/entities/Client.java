@@ -1,4 +1,4 @@
-package entities;
+package com.example.client.entities;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;

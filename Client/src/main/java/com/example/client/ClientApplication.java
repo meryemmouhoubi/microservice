@@ -1,17 +1,15 @@
 package com.example.client;
-import entities.Client;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.client.entities.Client;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
-import repositories.ClientRepository;
+import com.example.client.repositories.ClientRepository;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-@ComponentScan("repositories")
 public class ClientApplication {
 
 	public static void main(String[] args) {

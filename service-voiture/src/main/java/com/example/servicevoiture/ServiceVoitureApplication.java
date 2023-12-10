@@ -1,12 +1,12 @@
 package com.example.servicevoiture;
 
-import model.Client;
-import model.Voiture;
+import com.example.servicevoiture.model.Client;
+import com.example.servicevoiture.model.Voiture;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import repository.VoitureRepository;
+import com.example.servicevoiture.repository.VoitureRepository;
 
 @SpringBootApplication
 public class ServiceVoitureApplication {

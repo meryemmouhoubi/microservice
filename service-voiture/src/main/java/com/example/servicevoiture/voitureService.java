@@ -1,6 +1,6 @@
 package com.example.servicevoiture;
 
-import model.Voiture;
+import com.example.servicevoiture.model.Voiture;
 
 public interface voitureService {
     static Voiture enregistrerVoiture(Voiture voiture) {

@@ -1,6 +1,6 @@
 package com.example.servicevoiture;
 
-import model.Client;
+import com.example.servicevoiture.model.Client;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;

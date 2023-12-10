@@ -1,4 +1,4 @@
-package controller;
+package com.example.servicevoiture.controller;
 import java.util.List;
 
 import org.apache.hc.core5.http.HttpStatus;
@@ -10,10 +10,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import model.Voiture;
-import model.Client;
-import repository.VoitureRepository;
-import repository.ClientRepository;
+import com.example.servicevoiture.model.Voiture;
+import com.example.servicevoiture.model.Client;
+import com.example.servicevoiture.repository.VoitureRepository;
 import com.example.servicevoiture.ClientService;
 import com.example.servicevoiture.voitureService;
 

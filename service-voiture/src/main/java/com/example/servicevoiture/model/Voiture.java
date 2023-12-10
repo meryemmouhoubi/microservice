@@ -1,4 +1,4 @@
-package model;
+package com.example.servicevoiture.model;
 
 
 import jakarta.persistence.*;
